@@ -1,0 +1,29 @@
+{
+  "name": "midtermgrader",
+  "version": "1.0.0",
+  "description": "Grader for sp18",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSC413-05-SPRING18/midtermGrader.git"
+  },
+  "keywords": [
+    "midterm"
+  ],
+  "author": "Brian Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSC413-05-SPRING18/midtermGrader/issues"
+  },
+  "homepage": "https://github.com/CSC413-05-SPRING18/midtermGrader#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.18.0",
+    "chalk": "^2.3.2",
+    "commander": "^2.15.0",
+    "lodash": "^4.17.5"
+  }
+}
