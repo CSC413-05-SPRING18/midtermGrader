@@ -15,3 +15,4 @@ In Simple Server change content type to `Content-type: text/plain` so that all a
 
 ### String ops 
 - Append: just concat the strings
+- AppendRevers: concat in reverse order
