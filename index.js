@@ -147,8 +147,8 @@ const testRequests = tests.map((test)=>{
 		console.log('Expecting : ' + test.expected);
 		axios.get(test.endpoint)
 		.then((response) => {
-			console.log('Got response :' + response.data.trim())
-			if(response.data.trim() === test.expected){
+			console.log('Got response :' + response.data.toString().trim())
+			if(response.data.toString().trim() === test.expected){
 				completedTests++;
 				console.log(chalk.green('Passed!'));
 			}else{
